@@ -2,20 +2,20 @@
 `⏰ 2024.06.13 ~`
 
 
-# 📌 STUDY RULE
+## 📌 STUDY RULE
 - 스터디는 **매주 목요일 오후 1시**에 시작하여 2시간동안 진행됩니다.
 - 매주 백준에서 가져온 **5개**의 문제가 미션으로 주어집니다. 
 - 각 스터디원은 스터디 시간에 풀어온 문제의 풀이법 공유 및 알게된 알고리즘이 있다면 설명합니다.
 - `BOJ-extension`을 사용하여 문제를 확인하고 테스트 케이스로 채점합니다.
 - 문제 풀이시 다른 스터디원들이 이해하기 쉽도록 **주석** 작성을 권장합니다.
 
-# ⚙️ VSCODE SETTING
+## ⚙️ VSCODE SETTING
 ### ❗️`VS Code`의 확장프로그램인 `BOJ-extension`와 `Python` 설치해주세요.
 <img width="1500" alt="image" src="https://github.com/FE-STUDY-ROOM/baekjoon-algorithm/assets/96248861/8adbd378-45a1-4e48-bfa4-ba6b23016dad">
 <img width="1500" alt="image" src="https://github.com/FE-STUDY-ROOM/baekjoon-algorithm/assets/96248861/0e48198c-4e37-4c08-b3b2-ef01282dbe35">
 
 
-# 📁 GUIDELINE
+## 📁 GUIDELINE
 
 ### 1. 개인 폴더에 들어가서 해당 주차의 문제 확인
 ### 2. 문제 설명 보기 
@@ -33,11 +33,11 @@
 - 예시 1 👉🏻 `나는야 포켓몬 마스터 이다솜 / 실버4 / 100분 / O`
 - 예시 2 👉🏻 `균형잡힌 세상 / 실버4 / 80분 / X`
 
-# PR 규칙
+## PR 규칙
 - PR 규칙은 추후 작성하여 업로드하겠습니다.
 
-# 커밋 규칙
+## 커밋 규칙
 - 커밋 규칙은 추후 작성하여 업로드하겠습니다.
 
-# 참고 자료
+## 참고 자료
 [BOJ-extension GitHub](https://github.com/dltkdgns00/BOJ-extension)
