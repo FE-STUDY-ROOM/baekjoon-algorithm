@@ -3,8 +3,10 @@ import sys
 def input():
   return sys.stdin.readline().rstrip()
 
-# 입력받은 문자를 모두 소문자로 바꾼다
-string = input().lower()
+# Reafactor 내용: 소문자로 변환하여 탐색 후 마지막에 대문자로 변환한 뒤 리턴하는 것을 처음부터 대문자로 변환후 그대로 리턴하는 것으로 수정
+
+# 입력받은 문자를 모두 대문자로 바꾼다
+string = input().upper()
 
 # 문자의 count를 저장할 딕셔너리 생성
 str_dict = {}
@@ -21,5 +23,5 @@ if len(sorted_list) > 1 and str_dict[sorted_list[0]] == str_dict[sorted_list[1]]
   # 동일한 값이 있다면(카운트가 일치한다면) ? 리턴
   print('?')
 else:
-  # 유일한 값이라면 해당 문자를 대문자로 리턴
-  print(sorted_list[0].upper())
+  # 유일한 값이라면 해당 문자를 리턴
+  print(sorted_list[0])
