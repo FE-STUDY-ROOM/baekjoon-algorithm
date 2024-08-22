@@ -28,8 +28,8 @@ sa = sb = 0
 # p(k) = 18Ck * P^k * (1-p)^(18-k)
 for i in check:
     combi = combination(18, i)
-    sa += combi * power(pera, i) * power(1.0 - pera, 18 - i)
-    sb += combi * power(perb, i) * power(1.0 - perb, 18 - i)
+    sa += combi * pow(pera, i) * pow(1.0 - pera, 18 - i)
+    sb += combi * pow(perb, i) * pow(1.0 - perb, 18 - i)
 
 result = sa + sb - sa * sb
-print("{:.16f}".format(result))
+print(result)
